@@ -15,9 +15,7 @@ Binarized-MNIST experiments on a "Basic Network, No CNN" architecture, iterating
 | 6f (+ single bias term per layer) | 0.001 | 99.4 | 99.09 | 97.5 | |
 | 6eb (+ 8-bit bias, manual, single bias per layer) | 0.001 | 99.35 | 99.01 | 97.3 | |
 
-Best result in the captured range: **6e, 97.78% test accuracy**.
-
-*(Table sourced from the lab's "Part 6 Results" tracking spreadsheet - each row in the sheet links to its own specific Colab notebook.)*
+Best result: **6e, 97.78% test accuracy**.
 
 ## All notebooks in this part
 
@@ -41,5 +39,3 @@ Part 6 had the most iteration notebooks of any part. In rough chronological orde
 - [Chip_Part6sa_02-12-25](https://colab.research.google.com/drive/1GsR8hn8tw-gWgGMtIB6fWxO-r8jgakKJ) (final, linked above)
 - [Chip_Part6sb_02-12-25](https://colab.research.google.com/drive/141RepsrXMItd4uRXV7gXPE-sDg8vUWLY)
 - [Chip_Part6sc_02-12-25](https://colab.research.google.com/drive/1hqVN0mQkM9CjvxmKXMjEr-I6I2gfiH2Q)
-
-*(Links were bulk-extracted from Drive and read back via screenshot, since Drive doesn't expose per-file share links as plain text - a couple of characters in look-alike ID segments, e.g. `I`/`l`/`1`, may need a spot-check before you rely on them.)*

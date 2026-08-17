@@ -13,9 +13,7 @@ Combined PIC + EIC core architecture: PIC front-end (Conv2d with sum-pooling and
 | 8bab | 0.0001 | 96.8 | 98.75 | **96.43** | 100 epochs |
 | 8ba (correct bias) | 0.0001 | 84.52 | 84.4 | 85.17 | |
 
-Best result in the captured range: **8bab, 96.43% test accuracy** (100 epochs).
-
-*(Table sourced from the lab's "Part 8 Results" tracking spreadsheet - the full sheet has additional rows beyond what's summarized here.)*
+Best result: **8bab, 96.43% test accuracy** (100 epochs).
 
 ## All notebooks in this part
 
@@ -26,5 +24,3 @@ Best result in the captured range: **8bab, 96.43% test accuracy** (100 epochs).
 - [Chip_Part8cd_02-15-25](https://colab.research.google.com/drive/1feWPq8GGP8Uyj38NAqJ31cLKTuDhjame)
 - [Part8ci_02-23-25 (earlier version, Feb 23)](https://colab.research.google.com/drive/1MkScpkFsHYMolBYa2kFp0nv6H3YRcuD7)
 - [Part8ci_02-23-25 (final, Mar 7)](https://colab.research.google.com/drive/1i_6HSEUIH-USFg7iG7-FW914ITl41NXA) (linked above)
-
-*(Links were bulk-extracted from Drive and read back via screenshot, since Drive doesn't expose per-file share links as plain text - a couple of characters in look-alike ID segments, e.g. `I`/`l`/`1`, may need a spot-check before you rely on them.)*

@@ -9,5 +9,3 @@
 | Step | LR | Train Acc | Val Acc | Test Acc | Notes |
 |---|---|---|---|---|---|
 | 7a | 0.005 | 88.17 | 86.9 | 81.47 (pre-conversion) / 81.61 (post-conversion) | 3-core architecture, 60k train / 10k val / 10k test |
-
-*(Table sourced from the lab's "Part 7 Results" tracking spreadsheet.)*

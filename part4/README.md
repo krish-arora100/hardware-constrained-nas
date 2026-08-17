@@ -14,5 +14,3 @@ Direct comparison of quantization-aware training (QAT) vs. full-precision ("no Q
 | 5 | 0.01 | 87.62 | 1.58 | 77.81 | 87.16 | 1.59 | 87.25 |
 
 Notable: at step 4, the QAT model actually *outperformed* the full-precision model on test accuracy (92.89% vs. 90.03%).
-
-*(Table sourced from the lab's "Part 4 Results" tracking spreadsheet.)*

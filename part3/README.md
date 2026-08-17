@@ -22,5 +22,3 @@ Part 2's first EIC attempt only reached ~25% accuracy, so this part systematical
 | H with PGD | 97.82 | 1.49 | 0.0005 | **97.05** | |
 
 Best result: **E with PGD, 97.13% test accuracy**.
-
-*(Table sourced from the lab's "Part 3 Results" tracking spreadsheet.)*

@@ -38,12 +38,7 @@ Each `partN/` folder covers one stage of the exploration:
 | [Part 8](part8/README.md) | PIC + EIC combined core architecture |
 | [Part 9](part9/README.md) | Multi-layer core network, cosine LR annealing |
 
-Each part's README links to:
-- The **final/representative Colab notebook** for that part (the notebooks folder has many incremental iteration files - see the "All notebooks" section at the bottom of each part's README for the full list)
-- A **results table** (where a results log exists) pulled directly from the lab's experiment-tracking spreadsheet: architecture description, learning rate, train/val/test accuracy and loss, and notes
-- Where available, the exact Colab link the results row itself points to
-
-**Note on scope:** Parts 6, 8, and 9 in particular had many near-duplicate iteration notebooks (e.g. `Chip_Part6ia`, `6id`, `6ie`...). Each part's README leads with the most complete/final notebook, and lists every individual iteration notebook for that part in an "All notebooks" section at the bottom.
+Each part's README has the code and a results table: architecture, learning rate, train/val/test accuracy and loss, and notes. Parts 6, 8, and 9 went through a lot of minor iterations along the way (e.g. `Chip_Part6ia`, `6id`, `6ie`...) - the notebook checked in is the final/most complete one, with the rest linked at the bottom of that part's README.
 
 ## Tech stack
 
@@ -51,4 +46,4 @@ PyTorch, Google Colab, quantization-aware training (QAT) tooling, MNIST.
 
 ## Status
 
-This exploration ran from December 2024 through March 2025 and reached ~97-98% test accuracy on MNIST under the EIC/PIC hardware constraints by Part 9 (see each part's results table for specifics). In summer 2025, the lab shifted its full focus to **HiAER-Spike**, a much larger and less constrained neuromorphic "supercomputer" system under development at the San Diego Supercomputer Center ([arXiv:2504.03671](https://arxiv.org/pdf/2504.03671)) - that's the project my current/HiAER-Spike repo covers.
+This ran from December 2024 through March 2025 and reached ~97-98% test accuracy on MNIST under the EIC/PIC hardware constraints by Part 9. In summer 2025, the lab shifted its full focus to **HiAER-Spike**, a much larger and less constrained neuromorphic "supercomputer" system under development at the San Diego Supercomputer Center ([arXiv:2504.03671](https://arxiv.org/pdf/2504.03671)).

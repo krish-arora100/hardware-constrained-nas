@@ -15,8 +15,6 @@ Best result: **97.92% test accuracy**, with cosine-annealed LR and early stoppin
 
 ![Training and validation loss/accuracy curves](results_graph.png)
 
-*(Table and graph sourced from the lab's "Part 9 Results" tracking spreadsheet, which also embeds a graph and a direct Colab link per experiment row - the full sheet has additional rows beyond what's summarized here.)*
-
 ## All notebooks in this part
 
 - [Part9a_03-1-25](https://colab.research.google.com/drive/1qJx-Y6Auy0y6t-z_SLwWbqju-m2tiBDA)
@@ -25,5 +23,3 @@ Best result: **97.92% test accuracy**, with cosine-annealed LR and early stoppin
 - [Part9da_03-8-25](https://drive.google.com/file/d/1--NtnoJAuGsamA_vJe7OG52pQ_1puWxh/view)
 - [Part9ea_03-16-25](https://drive.google.com/file/d/1p-U2Zl6ylR7ZPRDc5RdzcWCbEc7dJ-1R/view)
 - [Part9ec_03-19-25 (final)](https://colab.research.google.com/drive/1qa7tjwCh_VfIiQiT346Xh4jfgMr__gy2) (linked above)
-
-*(Links were bulk-extracted from Drive and read back via screenshot, since Drive doesn't expose per-file share links as plain text - a couple of characters in look-alike ID segments, e.g. `I`/`l`/`1`, may need a spot-check before you rely on them.)*
